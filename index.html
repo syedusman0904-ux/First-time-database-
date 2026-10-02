@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQLite + JSON Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- SQL.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+</head>
+<body>
+  <h1>Database & JSON Demo</h1>
+
+  <section>
+    <h2>👥 Users (from SQLite .db)</h2>
+    <div id="db-output">Loading database...</div>
+  </section>
+
+  <section>
+    <h2>📦 Products (from JSON)</h2>
+    <div id="json-output">Loading JSON...</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
